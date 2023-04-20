@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		85169FDF29F1AE5100D0D060 /* AdviseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85169FDE29F1AE5100D0D060 /* AdviseApp.swift */; };
-		85169FE129F1AE5100D0D060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85169FE029F1AE5100D0D060 /* ContentView.swift */; };
 		85169FE329F1AE5700D0D060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85169FE229F1AE5700D0D060 /* Assets.xcassets */; };
 		85169FE629F1AE5700D0D060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85169FE529F1AE5700D0D060 /* Preview Assets.xcassets */; };
+		85169FEF29F1AE9F00D0D060 /* AdviseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85169FEE29F1AE9F00D0D060 /* AdviseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85169FDB29F1AE5100D0D060 /* Advise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85169FDE29F1AE5100D0D060 /* AdviseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviseApp.swift; sourceTree = "<group>"; };
-		85169FE029F1AE5100D0D060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85169FE229F1AE5700D0D060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85169FE529F1AE5700D0D060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85169FEE29F1AE9F00D0D060 /* AdviseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				85169FDE29F1AE5100D0D060 /* AdviseApp.swift */,
-				85169FE029F1AE5100D0D060 /* ContentView.swift */,
+				85169FEC29F1AE6500D0D060 /* Model */,
+				85169FED29F1AE6C00D0D060 /* Views */,
 				85169FE229F1AE5700D0D060 /* Assets.xcassets */,
 				85169FE429F1AE5700D0D060 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				85169FE529F1AE5700D0D060 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85169FEC29F1AE6500D0D060 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85169FED29F1AE6C00D0D060 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85169FEE29F1AE9F00D0D060 /* AdviseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85169FE129F1AE5100D0D060 /* ContentView.swift in Sources */,
+				85169FEF29F1AE9F00D0D060 /* AdviseView.swift in Sources */,
 				85169FDF29F1AE5100D0D060 /* AdviseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
