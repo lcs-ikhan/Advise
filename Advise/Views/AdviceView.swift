@@ -11,13 +11,15 @@ struct AdviceView: View {
     
     // MARK: Stored properties
     
+    // The current advice to display
+    @State var currentAdvice = exampleAdvice
     
     // MARK: Computed properties
     
     var body: some View {
         NavigationView{
             VStack {
-                Text("Never waste an opportunity to tell someone you love them.")
+                Text(currentAdvice.advice)
                     .font(.title)
                     .multilineTextAlignment(.center)
             }
