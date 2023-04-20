@@ -7,7 +7,13 @@
 
 import SwiftUI
 
-struct AdviseView: View {
+struct AdviceView: View {
+    
+    // MARK: Stored properties
+    
+    
+    // MARK: Computed properties
+    
     var body: some View {
         NavigationView{
             VStack {
@@ -20,8 +26,8 @@ struct AdviseView: View {
     }
 }
 
-struct AdviseView_Previews: PreviewProvider {
+struct AdviceView_Previews: PreviewProvider {
     static var previews: some View {
-        AdviseView()
+        AdviceView()
     }
 }
